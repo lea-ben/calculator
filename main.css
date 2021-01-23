@@ -1,0 +1,23 @@
+.container {
+    display: grid;
+    grid-template-areas: 
+    'display display display display display'
+    'bg-btn1 bg-btn2 bg-btn3 bg-btn4 bg-btn5'
+    'bg-btn6 bg-btn7 bg-btn8 bg-btn9 bg-btn10'
+    'bg-btn11 bg-btn12 bg-btn13 bg-btn14 bg-btn15';
+
+    grid-gap: 5px;
+    width: 40px;
+    height: 50px;
+margin :20px;
+margin-top: 8%;
+padding: 30px;
+}
+
+.bg-btn1 { background-color: lightseagreen;}
+.bg-btn3{ background-color: lightseagreen;}
+.bg-btn5 { background-color: lightseagreen;}
+
+.bg-btn11 { background-color:red;}
+.bg-btn13 { background-color:blue;}
+.bg-btn15 { background-color:yellow;}
